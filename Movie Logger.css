@@ -1,0 +1,210 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lexend', sans-serif
+}
+
+nav{
+    background-color: rgba(243, 125, 125, 0.473);
+    height: 5rem;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+nav .left{
+    padding-top: 12px;
+    float: left;
+    clear: both;
+}
+
+.left img{
+    margin-left: 5rem;
+}
+
+nav .right{
+    padding-top: 3px;
+    float: right;
+}
+
+.right ul{
+    margin-right: 8rem;
+}
+
+.right li{
+    margin-right: 1.5rem;
+    padding: 7px;
+    display: inline;
+    font-weight: 200;
+}
+
+.right a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition-duration: 1s;
+}
+
+.right a:hover{
+    color: rgb(12, 247, 247);
+}
+
+.title{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.btn{
+    border: none;
+    padding: 15px;
+    background-color: cyan;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+    transition-duration: 400ms;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#addArea{
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin-top: rem;
+}
+
+form input{
+    width: 25rem;
+    padding: 10px;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.submit{
+    padding: 0.7rem;
+}
+
+#mymovies{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.card{
+    flex: 1/4;
+    flex-basis: 17rem;
+    height: fit-content;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+}
+
+.delete{
+    padding: 0.7rem;
+}
+
+#about{
+    height: 100vh;
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content{
+    text-align: center;
+}
+
+@media(max-width: 500px){
+    #mymovies{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+/* body {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black
+}
+.movie-card {
+    width: 300px;
+    height: auto;
+    border-style: solid;
+    padding: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.movie-card img {
+    width: 300px;
+    height: 300px;
+}
+.movie-card h1 {
+    margin-top: 5px;
+}
+.movies {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.rating {
+    margin-top: -20px;
+}
+.date {
+    margin-top: -10px;
+}
+.review {
+    margin-top: 20px;
+}
+.addArea {
+    display: none;
+}
+.search {
+    margin: auto;
+}
+.searchbar {
+    margin-top: 20px;
+    height: 30px;
+    width: 400px;
+    padding-left: 10px;
+}
+.search button {
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 35px;
+} */

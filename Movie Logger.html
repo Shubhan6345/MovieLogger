@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <title>Movie Logger</title>
+    <link rel="stylesheet" href="/Movie Logger.css"/>
+    <script src="/Movie Logger.js"></script>
+</head> 
+<body>
+    <nav>
+        <div class="left">
+            <a href="/">
+                <img src="logo.jfif" width="50" alt="logos">
+            </a>
+        </div>
+        <div class="right">
+            <ul>
+                <a href="#home">
+                    <li>
+                        <button class="btn" id="addMovieButton">Add Movies</button>
+                    </li>
+                </a>
+                <a href="#mymovies">
+                    <li>My Movies</li>
+                </a>
+                <a href="#about">
+                    <li>About</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+            <div class="addArea" id="addArea">
+                <form action="#" id="addForm">
+                    <input placeholder="Search Movies" id="searchBar" class="searchbar" autocomplete="off">
+                    <button type="submit" class="btn submit">Search</button>
+                </form>
+                <div class="flex" id="searchMovies" style="margin-top: 3rem;">
+                </div>
+            </div>
+
+    <div id="mymovies">
+        <div>
+            <h1 class="title">
+                My Movies
+            </h1>
+        </div>
+        <div class="flex" id="movies" style="margin-top: 3rem;">
+        </div>
+   </div>
+
+   <div id="about">
+       <h1 class="title">
+        About
+       </h1>
+       <div class="content">
+           <h3 class="about-content">
+            Movie Logger is a website made by Shubhan Bhasin during a bootcamp from TS. It is made fully using HTML, CSS and JS. Movie Logger has a a goal of saving all the movies in one place (in this case local storage of your browser) so that you never forget which movie you want to watch when you get home. Or the movies you have allready watched and you want to share them with friends and family. Please dont copy this website or idea. Try making your own with VS Code (I used it too).
+           </h3>
+           <hr>  <center>
+           Copyright - @2021 Shubhan Bhasin
+           <hr> </center>
+       </div>
+   </div>
+
+ 
+</body>
+</html>
